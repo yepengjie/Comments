@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/join/join",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "这是一个练习的demo",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/menu_home_1.png",
+        "selectedIconPath": "images/menu_home_2.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "精选",
+        "iconPath": "images/nav_1.png",
+        "selectedIconPath": "images/nav_1.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "发现",
+        "iconPath": "images/nav_1.png",
+        "selectedIconPath": "images/nav_1.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "images/menu_own_1.png",
+        "selectedIconPath": "images/nav_1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap99.json"
+}
